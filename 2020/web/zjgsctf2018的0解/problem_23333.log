@@ -1,0 +1,178 @@
+*** Running /etc/my_init.d/00_regen_ssh_host_keys.sh...
+*** Running /etc/my_init.d/10_syslog-ng.init...
+May 19 10:54:14 zjgsuctf syslog-ng[10]: syslog-ng starting up; version='3.5.6'
+May 19 10:54:14 zjgsuctf syslog-ng[10]: EOF on control channel, closing connection;
+*** Running /etc/rc.local...
+*** Booting runit daemon...
+*** Runit started as PID 16
+May 19 10:54:14 zjgsuctf cron[23]: (CRON) INFO (pidfile fd = 3)
+May 19 10:54:14 zjgsuctf cron[23]: (CRON) INFO (Running @reboot jobs)
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.9. Set the 'ServerName' directive globally to suppress this message
+200519 10:54:15 mysqld_safe Logging to syslog.
+200519 10:54:16 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+May 19 10:54:16 zjgsuctf mysqld_safe: Starting mysqld daemon with databases from /var/lib/mysql
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:16 [Note] /usr/sbin/mysqld (mysqld 10.0.38-MariaDB-0ubuntu0.16.04.1) starting as process 173 ...
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:16 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+May 19 10:54:16 zjgsuctf mysqld: 
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:16 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:16 [Note] InnoDB: The InnoDB memory heap is disabled
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:16 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:16 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:16 [Note] InnoDB: Compressed tables use zlib 1.2.8
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:16 [Note] InnoDB: Using Linux native AIO
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:16 [Note] InnoDB: Using CPU crc32 instructions
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:16 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:16 [Note] InnoDB: Completed initialization of buffer pool
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:17 [Note] InnoDB: Highest supported file format is Barracuda.
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:17 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1616717
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:17 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:17 [Note] InnoDB: 128 rollback segment(s) are active.
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:17 [Note] InnoDB: Waiting for purge to start
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:17 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.42-84.2 started; log sequence number 1616727
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:17 [Note] Plugin 'FEEDBACK' is disabled.
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:17 [Note] Server socket created on IP: '127.0.0.1'.
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:17 [ERROR] mysqld: Table './mysql/user' is marked as crashed and should be repaired
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:17 [Warning] Checking table:   './mysql/user'
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:17 [ERROR] mysql.user: 1 client is using or hasn't closed the table properly
+May 19 10:54:16 zjgsuctf mysqld: 200519 10:54:17 [Note] /usr/sbin/mysqld: ready for connections.
+May 19 10:54:16 zjgsuctf mysqld: Version: '10.0.38-MariaDB-0ubuntu0.16.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Ubuntu 16.04
+May 19 11:09:02 zjgsuctf CRON[208]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 11:09:04 zjgsuctf CRON[207]: (CRON) info (No MTA installed, discarding output)
+May 19 11:17:01 zjgsuctf CRON[251]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 19 11:39:01 zjgsuctf CRON[254]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 11:39:01 zjgsuctf CRON[253]: (CRON) info (No MTA installed, discarding output)
+May 19 12:09:01 zjgsuctf CRON[297]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 12:09:01 zjgsuctf CRON[296]: (CRON) info (No MTA installed, discarding output)
+May 19 12:17:01 zjgsuctf CRON[340]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 19 12:39:01 zjgsuctf CRON[343]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 12:39:01 zjgsuctf CRON[342]: (CRON) info (No MTA installed, discarding output)
+May 19 13:09:01 zjgsuctf CRON[386]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 13:09:01 zjgsuctf CRON[385]: (CRON) info (No MTA installed, discarding output)
+May 19 13:17:01 zjgsuctf CRON[429]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 19 13:39:01 zjgsuctf CRON[432]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 13:39:01 zjgsuctf CRON[431]: (CRON) info (No MTA installed, discarding output)
+May 19 14:09:01 zjgsuctf CRON[475]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 14:09:01 zjgsuctf CRON[474]: (CRON) info (No MTA installed, discarding output)
+May 19 14:17:01 zjgsuctf CRON[518]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 19 14:39:01 zjgsuctf CRON[521]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 14:39:02 zjgsuctf CRON[520]: (CRON) info (No MTA installed, discarding output)
+May 19 15:09:01 zjgsuctf CRON[564]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 15:09:01 zjgsuctf CRON[563]: (CRON) info (No MTA installed, discarding output)
+May 19 15:17:01 zjgsuctf CRON[607]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 19 15:39:01 zjgsuctf CRON[610]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 15:39:01 zjgsuctf CRON[609]: (CRON) info (No MTA installed, discarding output)
+May 19 16:09:01 zjgsuctf CRON[653]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 16:09:01 zjgsuctf CRON[652]: (CRON) info (No MTA installed, discarding output)
+May 19 16:17:01 zjgsuctf CRON[696]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 19 16:39:01 zjgsuctf CRON[699]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 16:39:01 zjgsuctf CRON[698]: (CRON) info (No MTA installed, discarding output)
+May 19 17:09:01 zjgsuctf CRON[742]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 17:09:02 zjgsuctf CRON[741]: (CRON) info (No MTA installed, discarding output)
+May 19 17:17:01 zjgsuctf CRON[785]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 19 17:39:01 zjgsuctf CRON[788]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 17:39:01 zjgsuctf CRON[787]: (CRON) info (No MTA installed, discarding output)
+May 19 18:09:01 zjgsuctf CRON[831]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 18:09:01 zjgsuctf CRON[830]: (CRON) info (No MTA installed, discarding output)
+May 19 18:17:01 zjgsuctf CRON[874]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 19 18:39:01 zjgsuctf CRON[877]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 18:39:01 zjgsuctf CRON[876]: (CRON) info (No MTA installed, discarding output)
+May 19 19:09:02 zjgsuctf CRON[920]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 19:09:04 zjgsuctf CRON[919]: (CRON) info (No MTA installed, discarding output)
+May 19 19:17:01 zjgsuctf CRON[963]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 19 19:39:01 zjgsuctf CRON[966]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 19:39:01 zjgsuctf CRON[965]: (CRON) info (No MTA installed, discarding output)
+May 19 20:09:01 zjgsuctf CRON[1009]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 20:09:01 zjgsuctf CRON[1008]: (CRON) info (No MTA installed, discarding output)
+May 19 20:17:01 zjgsuctf CRON[1052]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 19 20:39:01 zjgsuctf CRON[1055]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 20:39:01 zjgsuctf CRON[1054]: (CRON) info (No MTA installed, discarding output)
+May 19 21:09:01 zjgsuctf CRON[1098]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 21:09:01 zjgsuctf CRON[1097]: (CRON) info (No MTA installed, discarding output)
+May 19 21:17:01 zjgsuctf CRON[1141]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 19 21:39:01 zjgsuctf CRON[1144]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 21:39:02 zjgsuctf CRON[1143]: (CRON) info (No MTA installed, discarding output)
+May 19 22:09:01 zjgsuctf CRON[1187]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 22:09:01 zjgsuctf CRON[1186]: (CRON) info (No MTA installed, discarding output)
+May 19 22:17:01 zjgsuctf CRON[1230]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 19 22:39:01 zjgsuctf CRON[1233]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 22:39:01 zjgsuctf CRON[1232]: (CRON) info (No MTA installed, discarding output)
+May 19 23:09:01 zjgsuctf CRON[1276]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 23:09:01 zjgsuctf CRON[1275]: (CRON) info (No MTA installed, discarding output)
+May 19 23:17:01 zjgsuctf CRON[1319]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 19 23:39:01 zjgsuctf CRON[1322]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 19 23:39:01 zjgsuctf CRON[1321]: (CRON) info (No MTA installed, discarding output)
+May 20 00:09:01 zjgsuctf CRON[1365]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 00:09:01 zjgsuctf CRON[1364]: (CRON) info (No MTA installed, discarding output)
+May 20 00:17:01 zjgsuctf CRON[1408]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 20 00:39:01 zjgsuctf CRON[1411]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 00:39:02 zjgsuctf CRON[1410]: (CRON) info (No MTA installed, discarding output)
+May 20 01:09:01 zjgsuctf CRON[1454]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 01:09:01 zjgsuctf CRON[1453]: (CRON) info (No MTA installed, discarding output)
+May 20 01:17:01 zjgsuctf CRON[1497]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 20 01:39:01 zjgsuctf CRON[1500]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 01:39:01 zjgsuctf CRON[1499]: (CRON) info (No MTA installed, discarding output)
+May 20 02:09:01 zjgsuctf CRON[1543]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 02:09:01 zjgsuctf CRON[1542]: (CRON) info (No MTA installed, discarding output)
+May 20 02:17:01 zjgsuctf CRON[1586]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 20 02:39:01 zjgsuctf CRON[1589]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 02:39:01 zjgsuctf CRON[1588]: (CRON) info (No MTA installed, discarding output)
+May 20 03:09:01 zjgsuctf CRON[1632]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 03:09:01 zjgsuctf CRON[1631]: (CRON) info (No MTA installed, discarding output)
+May 20 03:17:01 zjgsuctf CRON[1675]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 20 03:39:01 zjgsuctf CRON[1678]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 03:39:02 zjgsuctf CRON[1677]: (CRON) info (No MTA installed, discarding output)
+May 20 04:09:01 zjgsuctf CRON[1721]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 04:09:01 zjgsuctf CRON[1720]: (CRON) info (No MTA installed, discarding output)
+May 20 04:17:01 zjgsuctf CRON[1764]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 20 04:39:01 zjgsuctf CRON[1767]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 04:39:01 zjgsuctf CRON[1766]: (CRON) info (No MTA installed, discarding output)
+May 20 05:09:01 zjgsuctf CRON[1810]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 05:09:01 zjgsuctf CRON[1809]: (CRON) info (No MTA installed, discarding output)
+May 20 05:17:01 zjgsuctf CRON[1853]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 20 05:39:01 zjgsuctf CRON[1856]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 05:39:01 zjgsuctf CRON[1855]: (CRON) info (No MTA installed, discarding output)
+May 20 06:09:01 zjgsuctf CRON[1899]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 06:09:02 zjgsuctf CRON[1898]: (CRON) info (No MTA installed, discarding output)
+May 20 06:17:01 zjgsuctf CRON[1942]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 20 06:25:01 zjgsuctf CRON[1945]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+May 20 06:39:01 zjgsuctf CRON[1957]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 06:39:01 zjgsuctf CRON[1956]: (CRON) info (No MTA installed, discarding output)
+May 19 10:54:16 zjgsuctf mysqld: 200520  7:02:27 [ERROR] mysqld: Table './test/users' is marked as crashed and should be repaired
+May 19 10:54:16 zjgsuctf mysqld: 200520  7:02:27 [Warning] Checking table:   './test/users'
+May 20 07:09:01 zjgsuctf CRON[4619]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 07:09:04 zjgsuctf CRON[4618]: (CRON) info (No MTA installed, discarding output)
+May 20 07:17:01 zjgsuctf CRON[4674]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 20 07:39:01 zjgsuctf CRON[4702]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 07:39:01 zjgsuctf CRON[4701]: (CRON) info (No MTA installed, discarding output)
+May 20 08:09:01 zjgsuctf CRON[4745]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 08:09:01 zjgsuctf CRON[4744]: (CRON) info (No MTA installed, discarding output)
+May 20 08:17:01 zjgsuctf CRON[4788]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 20 08:39:02 zjgsuctf CRON[4791]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 20 08:39:05 zjgsuctf CRON[4790]: (CRON) info (No MTA installed, discarding output)
+May 20 08:53:14 zjgsuctf mysqld_safe: Number of processes running now: 1
+May 20 08:53:14 zjgsuctf mysqld_safe: mysqld process hanging, pid 173 - killed
+May 20 08:53:14 zjgsuctf mysqld_safe: mysqld restarted
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:14 [Note] /usr/sbin/mysqld (mysqld 10.0.38-MariaDB-0ubuntu0.16.04.1) starting as process 4857 ...
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:14 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+May 20 08:53:14 zjgsuctf mysqld: 
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:14 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:14 [Note] InnoDB: The InnoDB memory heap is disabled
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:14 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:14 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:14 [Note] InnoDB: Compressed tables use zlib 1.2.8
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:14 [Note] InnoDB: Using Linux native AIO
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:14 [Note] InnoDB: Using CPU crc32 instructions
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:14 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:14 [Note] InnoDB: Completed initialization of buffer pool
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:14 [Note] InnoDB: Highest supported file format is Barracuda.
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:14 [Note] InnoDB: The log sequence numbers 1616717 and 1616717 in ibdata files do not match the log sequence number 1616737 in the ib_logfiles!
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:14 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:15 [Note] InnoDB: 128 rollback segment(s) are active.
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:15 [Note] InnoDB: Waiting for purge to start
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:15 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.42-84.2 started; log sequence number 1616737
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:15 [Note] Plugin 'FEEDBACK' is disabled.
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:15 [Note] Server socket created on IP: '127.0.0.1'.
+May 20 08:53:14 zjgsuctf mysqld: 200520  8:53:15 [Note] /usr/sbin/mysqld: ready for connections.
+May 20 08:53:14 zjgsuctf mysqld: Version: '10.0.38-MariaDB-0ubuntu0.16.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Ubuntu 16.04
+*** Shutting down runit daemon (PID 16)...
+time="2020-05-20T01:53:27-07:00" level=error msg="error waiting for container: unexpected EOF"
